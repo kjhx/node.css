@@ -1,0 +1,53 @@
+/* Type & Links
+ –––––––––––––––––––––––*/
+body {
+ /* display: flex; */
+ /* min-height: 100vh; */
+ /* flex-direction: column; */
+ font-family: SFMono-Regular, Menlo, Consolas, monospace;
+ font-weight: normal;
+ font-size: 1.4rem;
+ letter-spacing: .15rem;
+ line-height: 1.6;
+ background: $bkg-color;
+ color: $scn-color;
+}
+
+h1 {
+ margin: 4rem 0 4rem 0;
+ font-weight: inherit;
+ font-size: inherit;
+ line-height: 1.2;
+ color: $prm-color;
+ text-transform: uppercase;
+}
+
+h1::after {
+ content: "\a--";
+ white-space: pre;
+}
+
+h2 {
+ margin: 4rem 0 4rem 0;
+ font-weight: inherit;
+ line-height: 1;
+ font-size: inherit;
+ color: $prm-color;
+ text-transform: uppercase;
+}
+
+abbr[title] {
+ text-decoration: none;
+ border-bottom: 1px dotted $scn-color;
+ cursor: help;
+}
+
+a {
+ color: $prm-color;
+ text-decoration: none;
+}
+
+a:hover {
+ color: $prm-color;
+ text-decoration: underline;
+}

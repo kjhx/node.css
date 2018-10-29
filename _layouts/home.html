@@ -1,0 +1,10 @@
+---
+layout: core
+footer: false
+---
+
+{% for post in site.posts %}
+<div class="entry">
+  <span>[{{ post.categories }}]</span> <a href="{{ post.url }}">{{ post.title }} {% if post.desc %} / {{ post.desc }}{% endif %}</a>
+</div>
+{% endfor %}

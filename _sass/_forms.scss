@@ -1,0 +1,54 @@
+/* Forms
+ –––––––––––––––––––––––*/
+ form:not(:last-child) {
+   margin-bottom: 1rem;
+ }
+
+ label {
+   font-weight: bold;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   color: $prm-color;
+ }
+
+ input:not([type='checkbox']), textarea {
+  display: block;
+  width: 100%;
+ }
+
+ textarea, input[type=text], input[type=color], input[type=date], input[type=file], input[type=month], input[type=number], input[type=password] {
+  min-height: 3.8rem;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  padding: 6px 10px;
+  border: 1px solid $scn-color;
+  font: inherit;
+  font-size: 1.6rem;
+  background: #333;
+  color: $scn-color;
+  outline: none;
+  transition: all .2s ease;
+ }
+
+ textarea:focus, input[type=text]:focus, input[type=color]:focus, input[type=date]:focus, input[type=file]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus { border-color: $prm-color; }
+
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  color: $scn-color;
+  text-align: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid $scn-color;
+  cursor: pointer;
+ }
+
+ button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+   color: $prm-color;
+   border: 1px solid $prm-color;
+  }

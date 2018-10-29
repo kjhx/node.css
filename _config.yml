@@ -1,0 +1,13 @@
+title: "node.css"
+author: "Kyle Huggins"
+description: >- # this means to ignore newlines until "baseurl:"
+  node.css is a simple and colorful theme for Jekyll.
+baseurl: "/"
+url: ""
+github_username: kjhx
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-gist
+permalink: /:categories/:title.html

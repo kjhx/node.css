@@ -1,0 +1,35 @@
+---
+# Front matter to ensure Jekyll properly reads file.
+---
+
+/*
+ * node.css
+ * a project by @kjhx
+ *
+ * Licensed under MIT
+ */
+
+ // Defaults
+ $prm-color: #fff;
+ $scn-color: darken($prm-color, 20%);
+ $bkg-color: #222;
+
+// $prm-color: #df6f41;
+// $scn-color: darken($prm-color, 10%);
+// $bkg-color: #34093c;
+
+$prm-color: #09ecb3;
+$scn-color: darken($prm-color, 10%);
+$bkg-color: #404b5b;
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@import "type";
+@import "layout";
+@import "lists";
+@import "forms";
+@import "core";
