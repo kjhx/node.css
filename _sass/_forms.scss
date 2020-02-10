@@ -8,7 +8,7 @@
    font-weight: bold;
    font-size: 1.2rem;
    text-transform: uppercase;
-   color: $prm-color;
+   color: $primary;
  }
 
  input:not([type='checkbox']), textarea {
@@ -21,34 +21,34 @@
   max-width: 100%;
   margin-bottom: 2rem;
   padding: 6px 10px;
-  border: 1px solid $scn-color;
+  border: 1px solid $secondary;
   font: inherit;
   font-size: 1.6rem;
   background: #333;
-  color: $scn-color;
+  color: $secondary;
   outline: none;
   transition: all .2s ease;
  }
 
- textarea:focus, input[type=text]:focus, input[type=color]:focus, input[type=date]:focus, input[type=file]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus { border-color: $prm-color; }
+ textarea:focus, input[type=text]:focus, input[type=color]:focus, input[type=date]:focus, input[type=file]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus { border-color: $primary; }
 
 button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
   height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  color: $scn-color;
+  color: $secondary;
   text-align: center;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 1px solid $scn-color;
+  border: 1px solid $secondary;
   cursor: pointer;
  }
 
  button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
-   color: $prm-color;
-   border: 1px solid $prm-color;
+   color: $primary;
+   border: 1px solid $primary;
   }

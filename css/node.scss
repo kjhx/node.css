@@ -10,17 +10,17 @@
  */
 
  // Defaults
- $prm-color: #fff;
- $scn-color: darken($prm-color, 20%);
- $bkg-color: #222;
+ $primary: #fff;
+ $secondary: darken($primary, 20%);
+ $background: #222;
 
 // $prm-color: #df6f41;
 // $scn-color: darken($prm-color, 10%);
 // $bkg-color: #34093c;
 
-$prm-color: #09ecb3;
-$scn-color: darken($prm-color, 10%);
-$bkg-color: #404b5b;
+$primary: #09ecb3;
+$secondary: darken($primary, 10%);
+$background: #404b5b;
 
 
 html {
@@ -32,4 +32,5 @@ html {
 @import "layout";
 @import "lists";
 @import "forms";
+@import "media";
 @import "core";

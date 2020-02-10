@@ -2,7 +2,7 @@ header {
   height: 4rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  border-bottom: 1px grayscale($prm-color) dotted;
+  border-bottom: 1px grayscale($primary) dotted;
 }
 
 header nav a {
@@ -34,5 +34,5 @@ header nav:after {
 }
 
 .darken {
-  color: $scn-color;
+  color: $secondary;
 }
